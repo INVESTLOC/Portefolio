@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.5 }}
             className="mb-10 lg:mb-0 lg:mr-16 w-64 h-64 relative"
           >
-            <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white dark:border-primary-700 shadow-lg">
+            <div className="w-65 h-65 rounded-full overflow-hidden border-4 border-white dark:border-primary-700 shadow-lg">
               <img 
                 src={personalInfo.profilePicture} 
                 alt={personalInfo.name} 
