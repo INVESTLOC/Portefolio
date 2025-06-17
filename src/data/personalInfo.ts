@@ -1,4 +1,5 @@
 import { PersonalInfo } from '../types';
+import profilePicture from '../assets/Portfolio_pp.png';
 
 export const personalInfo: PersonalInfo = {
   name: 'Gilles-Christ Hounkanrin',
@@ -6,10 +7,10 @@ export const personalInfo: PersonalInfo = {
   email: 'christ.hounkanrin@epitech.eu',
   phone: '+229 96664734',
   location: 'Cotonou, Bénin',
-  bio: 'Je suis passionné par la robotique et l\'intelligence artificielle. Je souhaite mettre en pratique mes compétences techniques, approfondir mon expertise, et contribuer à des projets innovants. Autonome, curieux et dynamique, je veux apprendre et évoluer constamment.',
+  bio: 'Je suis passionné par la robotique et l\'intelligence artificielle...',
   github: 'https://github.com/christh2',
   linkedin: 'https://www.linkedin.com/in/gilles-christ-hounkanrin/',
-  profilePicture: 'src/data/Portfolio_pp.png',
+  profilePicture,
   languages: [
     { name: 'Français', level: 'Courant' },
     { name: 'Anglais', level: 'Débutant' }
